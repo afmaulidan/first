@@ -1,0 +1,329 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/plusjakartasans/v2/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU79TR_V.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans';
+}
+
+h2, h3 {
+  color: #080000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.copy-container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.phone {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #242F9B;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 140px;
+  margin-top: 7px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  color: white;
+  font-size: 15px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+main {
+  padding: 0 30px 0 30px;
+  background-color: #DBDFFD;
+  overflow: auto;
+}
+
+#content {
+  padding: 80px;
+  background-color: #DBDFFD;
+  text-align: justify;
+}
+
+#fitur {
+  text-align: center;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  text-align: center; 
+  color: whitesmoke;
+}
+
+.box {
+  flex-grow: 1;
+  background-color: #828DEF;
+  margin: 5px;
+  border: 2px dodgerblue;
+  border-radius: 10px;
+}
+
+.box:hover {
+ box-shadow: 0 0 10px 5px rgba(76, 76, 76, 0.41);
+ -webkit-transition: .5s;
+ transition: .5s; 
+}
+
+.first {
+  width: 200px;
+  height: 250px;
+}
+
+.first img {
+  width: 80px;
+  padding-top: 20px;
+}
+
+.second {
+  width: 200px;
+  height: 250px;
+}
+
+.second img {
+  width: 80px;
+  padding-top: 20px;
+}
+
+.third {
+  width: 200px;
+  height: 250px;
+}
+
+.third img {
+  width: 80px;
+  padding-top: 20px;
+}
+
+.fourth {
+  width: 200px;
+  height: 250px;
+}
+
+.fourth img {
+  width: 80px;
+  padding-top: 20px;
+}
+
+#tentang {
+  padding-top: 50px;
+}
+
+#tentang h2 {
+  text-align: center;
+}
+
+#tentang p {
+  text-align: justify;
+}
+
+.contact-form {
+  padding-top: 50px;
+}
+
+aside {
+  background-color: #DBDFFD;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.kontak img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+footer {
+  padding: 15px;
+  color: whitesmoke;
+  background-color: #9BA3EB;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .lesson {
+    flex-direction: column; 
+  }
+
+  .first {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .second {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .third {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fourth {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media all and (max-width: 670px) {
+    footer {
+      text-align: center;
+    }
+
+    .btn {
+      width: 50%;
+    }
+
+    .facebook {
+      margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+      text-align: center;
+    }
+
+    .header-right {
+      display: none;
+    }
+
+    .top-wrapper h1 {
+      font-size: 24px;.
+      line-height: 36px;
+    }
+
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .lesson {
+      flex-direction: column;
+    }
+
+    .first {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .second {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .third {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .fourth {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
